@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+	<meta name="description" content="E-Commerce Website">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>E-Commerce Website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="top-nav-bar">
+		<div class="search-box">
+			<i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+			<i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+			<img class="logo" src="images/logo.png">
+			<input type="text" class="form-control" name="">
+			<span class="input-group-text"><i class="fa fa-search"></i></span>
+
+		</div>
+		<div class="menu-bar">
+			<ul>
+				<li><a href=""><i class="fa fa-shopping-basket"></i>cart</a></li>
+				<li><a href="">signin</a></li>
+				<li><a href="">login</a></li>
+			</ul>
+		</div>
+		<section class="header">
+			<div class="side-menu" id="side-menu">
+				<ul>
+					<li>On Sale<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Mobile<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Computer<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Books<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Fitness<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Baby Care<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Magazine<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Auto Accessories<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Movie and Music<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Video and Games<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Home and Kitchen<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Furniture<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+					<li>Grocery<i class="fa fa-angle-right"></i>
+						<ul>
+							<li>Sub Menu-1</li>
+							<li>Sub Menu-2</li>
+							<li>Sub Menu-3</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="slider">
+				<div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="images/vegetables-and-tomatoes-on-cutting-board-255501.jpg" class="d-block w-100" alt="vagetables">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/analysis-coffee-cup-1549702.jpg" class="d-block w-100" alt="coffee">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/accessory-background-beauty-988863.jpg" class="d-block w-100" alt="beauty">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="images/michael-mroczek-byW_4p0EKMA-unsplash.jpg" class="d-block w-100" alt="beauty">
+					    </div>
+					  </div>
+					    <ol class="carousel-indicators">
+						    <li data-target="#slider" data-slide-to="0" class="active"></li>
+						    <li data-target="#slider" data-slide-to="1"></li>
+						    <li data-target="#slider" data-slide-to="2"></li>
+						    <li data-target="#slider" data-slide-to="3"></li>
+						 </ol>
+					</div>
+			</div>
+		</section>
+		<!--------------------------------Featured-Categories------------------------------>
+		<section class="featured-categories">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					<img src="images/strawberry-smoothie-on-glass-jar-775032.jpg" alt="strawberry">
+					</div>
+					<div class="col-md-4">
+						<img src="images/henry-ascroft-7OFnb7NOvjw-unsplash.jpg" alt="strawberry">
+					</div>
+					<div class="col-md-4">
+						<img src="images/paul-gaudriault-a-QH9MAAVNI-unsplash.jpg" alt="strawberry">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--------------------------------On Sale Products------------------------->
+		<section class="on-sale">
+			<div class="container">
+				<div class="title-box">
+					<h2>On Sale</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/jay-wennington-RZhx9O-8Crs-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<h3>DSLR Camare</h3>
+							<h5>$400.00</h5>
+						</div>
+					</div>
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/pepi-stojanovski-tulxmkTXmRw-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<h3>Smart Watch</h3>
+							<h5>$50.00</h5>
+						</div>
+					</div>
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/jakob-owens-O_bhy3TnSYU-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<h3>Travelling Bag</h3>
+							<h5>$120.00</h5>
+						</div>
+					</div>
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/paul-gaudriault-a-QH9MAAVNI-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<h3>Formal Shoes</h3>
+							<h5>$40.00</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-------------------------------New Products------------------------->
+		<section class="new-product">
+			<div class="container">
+				<div class="title-box">
+					<h2>New Arrivals</h2>
+				</div>
+				<div class="row new">
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/jay-wennington-RZhx9O-8Crs-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<h3>DSLR Camare</h3>
+							<h5>$400.00</h5>
+						</div>
+					</div>
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/pepi-stojanovski-tulxmkTXmRw-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<h3>Smart Watch</h3>
+							<h5>$50.00</h5>
+						</div>
+					</div>
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/jakob-owens-O_bhy3TnSYU-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<h3>Travelling Bag</h3>
+							<h5>$120.00</h5>
+						</div>
+					</div>
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/paul-gaudriault-a-QH9MAAVNI-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<h3>Formal Shoes</h3>
+							<h5>$40.00</h5>
+						</div>
+					</div>
+				</div>
+				<div class="row new">
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/jay-wennington-RZhx9O-8Crs-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half-o"></i>
+							<h3>DSLR Camare</h3>
+							<h5>$400.00</h5>
+						</div>
+					</div>
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/pepi-stojanovski-tulxmkTXmRw-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<h3>Smart Watch</h3>
+							<h5>$50.00</h5>
+						</div>
+					</div>
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/jakob-owens-O_bhy3TnSYU-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<h3>Travelling Bag</h3>
+							<h5>$120.00</h5>
+						</div>
+					</div>
+					<div class="col-md-4-3">
+						<div class="product-top">
+							<img src="images/paul-gaudriault-a-QH9MAAVNI-unsplash.jpg">
+							<div class="overlay-right">
+								<button type="button" class="btn btn-secondary" title="Quidk Shop">
+									<i class="fa fa-eye"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+									<i class="fa fa-heart-o"></i>
+								</button>
+								<button type="button" class="btn btn-secondary" title="Add to Cart">
+									<i class="fa fa-shopping-cart"></i>
+								</button>
+							</div>
+						</div>
+						<div class="product-bottom">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<h3>Formal Shoes</h3>
+							<h5>$40.00</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!------------------------------Website Features----------------------------->
+		<section class="website-features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 feature-box">
+						<img src="images/feature-1.png">
+						<div class="feature-text">
+							<p><b>100% Original items</b> are available at company.</p>
+						</div>
+					</div>
+					<div class="col-md-3 feature-box">
+						<img src="images/feature-2.png">
+						<div class="feature-text">
+							<p><b>Return within 30 days</b> of recieving your order.</p>
+						</div>
+					</div>
+					<div class="col-md-3 feature-box">
+						<img src="images/feature-3.jpg">
+						<div class="feature-text">
+							<p><b>Get free delivery</b> for every order on more than price.</p>
+						</div>
+					</div>
+					<div class="col-md-3 feature-box">
+						<img src="images/feature-4.jpg">
+						<div class="feature-text">
+							<p><b>Pay online through</b> multiple payment option (card/net banking).</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-----------------------Footer---------------------------->
+		<section class="footer">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-md-3">
+						<h1>Useful Links</h1>
+						<p>Privacy Policy</p>
+						<p>Terms of use</p>
+						<p>Return Policy</p>
+						<p>Discount Coupons</p>
+					</div>
+					<div class="col-md-3">
+						<h1>Company</h1>
+						<p>About Us</p>
+						<p>Career</p>
+						<p>Affiliate</p>
+					</div>
+					<div class="col-md-3">
+						<h1><i class="fa fa-facebook-official"></i> Follow</h1>
+						<p><i class="fa fa-youtube-play"></i> Facebook</p>
+						<p><i class="fa fa-linkedin"></i> Linkedin</p>
+						<p><i class="fa fa-twitter"></i> Twitter</p>
+					</div>
+					<div class="col-md-3 footer-image">
+						<h1>Download App</h1>
+						<img src="images/app-logo.png">
+					</div>
+				</div>
+				<hr>
+				<p class="copyright">Made with by <i class="fa fa-heart-o"></i> Rabbi Hosain</p>
+			</div>
+		</section>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+	function openmenu(){
+		document.getElementById('side-menu').style.display="block";
+		document.getElementById('menu-btn').style.display="none";
+		document.getElementById('close-btn').style.display="block";
+	}
+	function closemenu(){
+		document.getElementById('side-menu').style.display="none";
+		document.getElementById('menu-btn').style.display="block";
+		document.getElementById('close-btn').style.display="none";
+	}
+</script>
+</body>
+</html>
